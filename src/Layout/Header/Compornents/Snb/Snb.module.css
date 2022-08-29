@@ -1,0 +1,56 @@
+.Snb {
+  border: 2px solid yellow;
+  background: rgb(250, 250, 250);
+  width: 140px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+
+.BoardWrap {
+  border: 2px solid red;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Board {
+  border: 2px solid blue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.MenuWrap {
+  border: 2px solid red;
+  width: 100%;
+  height: 80vh;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+}
+.MenuWrap::-webkit-scrollbar {
+  background: none;
+  width: 10px; /* 스크롤바의 너비 */
+}
+.MenuWrap::-webkit-scrollbar-thumb {
+  height: 10%; /* 스크롤바의 길이 */
+  background: #217af4; /* 스크롤바의 색상 */
+  border-radius: 10px;
+}
+.MenuWrap::-webkit-scrollbar-track {
+  background: rgba(33, 122, 244, 0.1); /*스크롤바 뒷 배경 색상*/
+}
+.Menu {
+  border: 2px solid rgba(136, 136, 136, 0.438);
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
