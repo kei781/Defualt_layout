@@ -1,0 +1,4 @@
+.LogInOutWrap {
+  display: flex;
+  flex-direction: column;
+}

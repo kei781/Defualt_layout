@@ -1,0 +1,11 @@
+.ContentsWrap {
+  border: 2px solid red;
+  height: calc(100vh - (80px + 80px));
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Contents {
+  border: 2px solid blue;
+  width: 1200px;
+}

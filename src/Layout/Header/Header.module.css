@@ -1,0 +1,56 @@
+/*헤더의 외부 레이아웃*/
+.HeaderWrap {
+  border: 2px solid red;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/*==실제 헤더의 레이아웃==*/
+.Header {
+  border: 2px solid blue;
+  height: 80px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+/*==헤더 왼쪽의 버거==*/
+.Board {
+  border: 2px solid red;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  display: flex;
+  justify-content: flex-start;
+}
+/*==헤더 중앙의 제목==*/
+.Title {
+  border: 2px solid red;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+/*==헤더 왼쪽의 외부 레이아웃==*/
+/*==타이틀을 정중앙에 위치시키위해 부득이하게필요==*/
+.FunctionTabWrap {
+  border: 2px solid red;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*==헤더 왼쪽의 기능모음==*/
+.FunctionTab {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*==기능모음의 로그인과==*/
+/*==게시글 작성버튼간의 거리==*/
+.FunctionTab > li:nth-child(1) {
+  margin-right: 20px;
+}

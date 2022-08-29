@@ -1,0 +1,23 @@
+.Snb {
+  border: 2px solid yellow;
+
+  width: 140px;
+  height: 100%;
+  position: fixed;
+}
+
+.BoardWrap {
+  border: 2px solid red;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Board {
+  border: 2px solid blue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+}

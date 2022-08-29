@@ -1,0 +1,14 @@
+.FooterWrap {
+  border: 2px solid red;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Footer {
+  border: 2px solid blue;
+  width: 1200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
